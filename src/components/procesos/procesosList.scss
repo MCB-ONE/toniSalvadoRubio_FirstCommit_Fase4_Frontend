@@ -1,0 +1,57 @@
+@import "../../styles/css/variables";
+
+.procesos-list {
+    margin-top: 12px;
+    .item {
+        background-color: $cm-gray--100;
+        padding: 13px 20px;
+        border-radius: 11px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        p {
+            margin: 0;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        span {
+            color: $cm-gray--400;
+        }
+        .title {
+            p {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 18px;
+            }
+        }
+        .estado {
+            span {
+                color: $cm-white;
+                text-transform: uppercase;
+                font-size: 12px;
+                padding: 5px 8px 4px;
+                margin-right: 6px;
+                border-radius: 40px;
+            }
+            .contratado {
+                background-color: #36e4a6;
+            }
+            .pendiente {
+                background-color: #3684fa;
+            }
+            .esperando {
+                background-color: #3fcbf8;
+            }
+            .rechazado {
+                background-color: #d04566;
+            }
+        }
+    }
+}

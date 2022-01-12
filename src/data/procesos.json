@@ -1,0 +1,7 @@
+[
+    { "titulo": "Nombre Empresa SA", "candidatos": "7 candidatos", "fecha": "05 nov 2021", "estado": "PDTE. Entrevista", "id": 1 },
+    { "titulo": "Nombre Empresa SA", "candidatos": "7 candidatos", "fecha": "05 nov 2021", "estado": "Entrevistado", "id": 2 },
+    { "titulo": "Nombre Empresa SA", "candidatos": "7 candidatos", "fecha": "05 nov 2021", "estado": "Esperando CV", "id": 3 },
+    { "titulo": "Nombre Empresa SA", "candidatos": "7 candidatos", "fecha": "05 nov 2021", "estado": "Rechazado", "id": 4 },
+    { "titulo": "Nombre Empresa SA", "candidatos": "7 candidatos", "fecha": "05 nov 2021", "estado": "Contratado", "id": 5 }
+  ]

@@ -1,0 +1,125 @@
+@import "../../styles/css/variables";
+
+/* Admin layout*/
+.admin-page {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.admin-sidebar {
+    flex-basis: 10%;
+    .admin-logo{
+        padding: 22px 20px;
+    }
+    ul {
+        padding: 0;
+        li {
+            list-style: none;
+            .navlink{
+                display: block;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 16px;
+                padding: 17px 17px 17px 22px;
+                color: $cm-gray--400;
+                &:hover{
+                    background-color: #32D4A426;
+                    color: $cm-white;
+                    svg{
+                        color: $cm-primary;
+                    }
+                }
+            }
+            svg{
+                margin-right: 15px;
+                font-size: 16px;
+                vertical-align: -0.125em;
+            }
+            .navlink-active{
+                background-color: #32D4A426;
+                color: $cm-white;
+                svg{
+                    color: $cm-primary;
+                }
+            }
+        }
+    }
+}
+.admin-main {
+    flex-basis: 90%;
+    .admin-content{
+        display: flex;
+    }
+}
+
+/*Admin Logo */
+.admin-logo {
+    color: $cm-white;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 22px;
+    span {
+        font-weight: 400;
+    }
+}
+
+/* Admin Header */
+.admin-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-self: start;
+    align-items: center;
+    padding: 15px 30px 15px 10px;
+    border-bottom: 1px solid $cm-gray--200;
+    /* Profile */
+    .profile {
+        display: flex;
+        background-color: $cm-white;
+        border-radius: 90px;
+        align-items: center;
+        padding-right: 16px;
+        h4 {
+            margin-bottom: 0;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .profile-img {
+            background-color: $cm-black;
+            border-radius: 100%;
+            padding: 11px 9px;
+            color: $cm-gray--500;
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+        }
+        .dropdown-toggle {
+            color: $cm-black;
+            font-weight: 600;
+            &::after {
+                display: none;
+            }
+            svg {
+                margin-left: 15px;
+                color: $cm-gray--300;
+            }
+        }
+    }
+    /* Return */
+    .return {
+        p {
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+        }
+
+        i {
+            margin-right: 12px;
+        }
+    }
+}

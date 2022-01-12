@@ -1,0 +1,75 @@
+@import "../../styles/css/variables";
+
+/* Tabla */
+.cm-table {
+
+    .table {
+        background-color: white;
+        border-collapse: separate;
+        border: solid $cm-gray--200 1px;
+        border-right: none;
+        tbody {
+            border-top: none !important;
+        }
+        td,
+        th {
+            border-top: none;
+        }
+        th {
+            color: $cm-gray--300;
+            font-size: 11px;
+            letter-spacing: 0.01rem;
+            text-transform: uppercase;
+            padding: 13px 24px;
+            svg {
+                cursor: pointer;
+                font-size: 13px;
+                margin-left: 12px;
+            }
+        }
+        td {
+            font-size: 15px;
+            font-weight: 600;
+            padding: 20px 24px;
+        }
+        tr{
+            &:last-of-type{
+                td{
+                    border-bottom: none;
+                }
+            }
+        }
+        
+        .tags {
+            span {
+                background-color: $cm-primary;
+                color: $cm-white;
+                text-transform: uppercase;
+                font-size: 12px;
+                padding: 5px 8px 4px;
+                margin-right: 6px;
+                border-radius: 6px;
+            }
+        }
+        .estado {
+            span {
+                color: $cm-white;
+                text-transform: uppercase;
+                font-size: 12px;
+                padding: 5px 8px 4px;
+                margin-right: 6px;
+                border-radius: 40px;
+            }
+            .contratado{
+                background-color: #36E4A6;
+            }
+            .preseleccionado{
+                background-color: #3684FA;
+            }
+            .pendiente{
+                background-color: #3FCBF8;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,55 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "globals": {
+        "document": true
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "overrides": [
+        {
+            "files": [
+                "*.jsx",
+                "*.js"
+            ]
+        }
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": 1,
+        "react/prop-types": 1,
+        "arrow-body-style": 0,
+        "linebreak-style": 0,
+        "jsx-a11y/label-has-associated-control": [ 2, {
+            "labelComponents": ["CustomInputLabel"],
+            "labelAttributes": ["label"],
+            "controlComponents": ["CustomInput"],
+            "depth": 3
+          }],
+          "jsx-a11y/anchor-is-valid": 1,
+          "no-console": "off"
+        /*
+        "no-alert": 0,
+        "import/no-extraneous-dependencies": 0,
+        "max-len": [2, 250, 4, {"ignoreUrls": true}],
+        "react/jsx-props-no-spreading": "off" */
+    }
+}

@@ -1,0 +1,84 @@
+@import "../../styles/css/variables";
+ .tab{
+     height: 100%;
+     width: 100%;
+  .bloc-tabs {
+    display: flex;
+    background: $cm-gray--100;
+  }
+  .tabs {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 141.5%;
+    padding: 15px;
+    text-align: center;
+    padding: 20px 30px;
+    background: $cm-gray--100;
+    color: $cm-gray--300;
+    cursor: pointer;
+    border-top: 1px solid $cm-gray--200;
+    border-bottom: 1px solid $cm-gray--200;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    span{
+      padding: 3px 5px;
+      color: $cm-primary;
+      background-color: rgba(50, 212, 164, 0.15);
+      margin-left: 8px;
+      border-radius: 4px;
+    }
+  }  
+  .active-tabs  {
+    color: $cm-black;
+    background: white;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .active-tabs::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: $cm-primary;
+  }
+  
+  
+  
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+    width: 100%;
+    height: 100%;
+  }
+  .content {
+    background: white;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+ }

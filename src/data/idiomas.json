@@ -1,0 +1,7 @@
+[
+    { "value": "castellano", "label": "Castellano", "id": 1 },
+    { "value": "ingles", "label": "Ingles", "id": 2 },
+    { "value": "frances", "label": "Frances", "id": 3 },
+    { "value": "ruso", "label": "Ruso", "id": 4 },
+    { "value": "chino", "label": "Chino", "id": 5 }
+  ]

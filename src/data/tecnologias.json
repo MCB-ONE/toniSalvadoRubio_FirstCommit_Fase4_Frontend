@@ -1,0 +1,10 @@
+[
+    { "value": "react", "label": "React", "id": 1 },
+    { "value": "html&css", "label": "Htmal&Css", "id": 2 },
+    { "value": "angular", "label": "Angular", "id": 3 },
+    { "value": "java", "label": "Java", "id": 4 },
+    { "value": "javascript", "label": "JavaScript", "id": 5 },
+    { "value": "csharp", "label": "C#", "id": 6 },
+    { "value": "php", "label": "Php", "id": 7 },
+    { "value": "flutter", "label": "Flutter", "id": 8 }
+  ]

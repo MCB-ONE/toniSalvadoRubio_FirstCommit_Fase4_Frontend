@@ -1,0 +1,62 @@
+@import "../../styles/css/variables";
+
+/* Search bar */
+.search {
+    position: relative;
+    svg {
+        font-size: 16px;
+        position: absolute;
+        top: 13px;
+        left: 16px;
+    }
+    .form-control {
+        width: 354px;
+        margin-bottom: 0;
+        padding: 12px 15px 10px 44px;
+        border-radius: $cm-border--radius;
+        font-size: inherit;
+        font-weight: 500;
+        &:focus, &:active {
+            color: #212529;
+            font-weight: 500;
+            background-color: #fff;
+            border-color: $cm-primary;
+            outline: 0;
+            box-shadow: none;
+        }
+        &::placeholder {
+            color: $cm-black;
+            font-weight: 500;
+        }
+    }
+
+    .default{
+        background-color: $cm-gray--200;
+        border-color: $cm-gray--200;
+        color: $cm-black;
+        &::placeholder {
+            color: $cm-gray--300;
+            font-weight: 500;
+        }
+    }
+
+    .light{
+        background-color: $cm-white;
+        border: $cm-white;
+        &::placeholder{
+            color: $cm-gray--300;
+        }
+        &:focus, &:active {
+            color: #212529;
+            font-weight: 500;
+            background-color: #fff;
+            border-color: $cm-primary;
+            outline: 0;
+            box-shadow: none;
+        }
+    }
+}
+
+.ms{
+    margin-left: 20px;
+}

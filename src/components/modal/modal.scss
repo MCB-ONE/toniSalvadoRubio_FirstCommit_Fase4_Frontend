@@ -1,0 +1,51 @@
+@import "../../styles/css/variables";
+
+.overlay {
+    position: fixed;
+    z-index: 9;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-content {
+    border-radius: 8px;
+    position: relative;
+    width: 1138px !important;
+    height: fit-content;
+    background-color: $cm-light;
+    .modal-header {
+        border-bottom: none!important;
+        padding: 30px !important;
+        h1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 22px;
+        }
+        .modal-close{
+            color: $cm-gray--300;
+            font-size: 20px;
+        }
+    }
+    .modal-main{
+        padding: 0 10px;
+    }
+    .modal-footer { 
+        width: 100% ;
+        background-color: $cm-gray--100;
+        border-top: none !important;
+        display: flex;
+        align-self: flex-end;
+        gap: 12px;
+        .button{
+            margin-left: unset ;
+        }
+    }
+    
+}
+
