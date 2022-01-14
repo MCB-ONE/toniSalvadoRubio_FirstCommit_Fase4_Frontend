@@ -6,7 +6,7 @@ import { GoSearch } from 'react-icons/go';
 import './filterSearch.scss';
 
 const FilterSearch = ({
-  query, setQuery, bgColor, marginStart,
+  query, setQuery, bgColor, marginStart, searchPlaceholder,
 }) => {
   const ms = marginStart ? 'ms' : '';
   const formStyle = `form-inline search ${ms}`;
@@ -18,7 +18,7 @@ const FilterSearch = ({
       <input
         className={inputStyle}
         type="search"
-        placeholder="Buscar por Nombre, Email o Palabra clave..."
+        placeholder={searchPlaceholder}
         aria-label="Search"
         value={query}
         onChange={(val) => setQuery(val.target.value)}
@@ -32,6 +32,7 @@ FilterSearch.propTypes = {
   setQuery: PropTypes.func,
   bgColor: PropTypes.oneOf(['default', 'light']),
   marginStart: PropTypes.oneOf([true, false]),
+  searchPlaceholder: PropTypes.string,
 };
 
 FilterSearch.defaultProps = {
@@ -39,6 +40,7 @@ FilterSearch.defaultProps = {
   setQuery: (val) => console.log(val),
   bgColor: 'default',
   marginStart: false,
+  searchPlaceholder: 'Buscar...',
 };
 
 export default FilterSearch;

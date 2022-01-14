@@ -29,8 +29,11 @@
         }
         td {
             font-size: 15px;
-            font-weight: 600;
+            font-weight: 500;
             padding: 20px 24px;
+            a{
+                font-weight: 700;  
+            }
         }
         tr{
             &:last-of-type{

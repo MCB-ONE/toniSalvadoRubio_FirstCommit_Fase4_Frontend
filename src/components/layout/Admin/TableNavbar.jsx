@@ -1,25 +1,26 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { IoMdAdd } from 'react-icons/io';
-import Modal from '../../../modal/Modal';
-/** Candidatos style */
-import './candidatos.scss';
-import FilterSearch from '../../../filterSearch/FilterSearch';
-import Button from '../../../button/Button';
+import Modal from '../../modal/Modal';
+import FilterSearch from '../../filterSearch/FilterSearch';
+import Button from '../../button/Button';
 
-const CandidatosNavbar = ({ title, query, setQuery }) => {
+const TableNavbar = ({
+  title, query, setQuery, buttonLabel, searchPlaceholder,
+}) => {
   const [modalState, setModalState] = useState(false);
   return (
-    <div className="candidatos-navbar">
+    <div className="table-navbar">
       <h2 className="section-title">{title}</h2>
       <FilterSearch
         query={query}
         setQuery={setQuery}
+        searchPlaceholder={searchPlaceholder}
       />
       <Button
         variant="outline"
         color="light"
-        label="Añadir alumnos"
+        label={buttonLabel}
         onClick={() => setModalState(true)}
       >
         <IoMdAdd />
@@ -32,10 +33,12 @@ const CandidatosNavbar = ({ title, query, setQuery }) => {
   );
 };
 
-CandidatosNavbar.propTypes = {
+TableNavbar.propTypes = {
   title: PropTypes.string.isRequired,
   query: PropTypes.string.isRequired,
   setQuery: PropTypes.func.isRequired,
+  buttonLabel: PropTypes.string.isRequired,
+  searchPlaceholder: PropTypes.string.isRequired,
 };
 
-export default CandidatosNavbar;
+export default TableNavbar;

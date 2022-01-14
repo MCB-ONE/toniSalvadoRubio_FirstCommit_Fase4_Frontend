@@ -123,3 +123,16 @@
         }
     }
 }
+
+/* Admin Table Navbar */
+.table-navbar {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    form {
+        margin-left: 24px;
+    }
+    button {
+        margin-left: auto;
+    }
+}

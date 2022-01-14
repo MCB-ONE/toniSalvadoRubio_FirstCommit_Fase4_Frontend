@@ -1,32 +1,32 @@
 [
     {
-      "id": 1, "nombre": "Álvaro Sánchez Monteagudo", "ciudad": "Valencia", "país": "España", "teléfono": "+34 657 85 25 46", "email": "smonteagudo@gmail.com", "tecnologias": ["HTML&CSS", "ANGULAR", "JAVA", "PHP"], "estado": "Contratado"
+      "id": 1, "nombre": "Álvaro Sánchez Monteagudo", "ubicación": "Valencia, España",  "teléfono": "+34 657 85 25 46", "email": "smonteagudo@gmail.com", "tecnologías": ["HTML&CSS", "ANGULAR", "JAVA", "PHP"], "estado": "Contratado"
     },
     {
-      "id": 2, "nombre": "Amparo Herrera Climent", "ciudad": "Sevilla", "país": "España", "teléfono": "+34 654 55 98 56", "email": "aherreracliment@gmail.com", "tecnologias": ["HTML&CSS", "REACT", "JAVA", "PHP"], "estado": "PDTE. Ofertas"
+      "id": 2, "nombre": "Amparo Herrera Climent", "ubicación": "Sevilla, España",  "teléfono": "+34 654 55 98 56", "email": "aherreracliment@gmail.com", "tecnologías": ["HTML&CSS", "REACT", "JAVA", "PHP"], "estado": "PDTE. Ofertas"
     },
     {
-      "id": 3, "nombre": "Manuel Jimenéz Santos", "ciudad": "Berlín", "país": "Alemania", "teléfono": "+34 634 45 22 56", "email": "manujimenez@gmail.com", "tecnologias": ["JAVA", "PHP"], "estado": "Preseleccionado"
+      "id": 3, "nombre": "Manuel Jimenéz Santos", "ubicación": "Berlín, Alemania", "teléfono": "+34 634 45 22 56", "email": "manujimenez@gmail.com", "tecnologías": ["JAVA", "PHP"], "estado": "Preseleccionado"
     },
     {
-      "id": 4, "nombre": "Cristina Bea Martos", "ciudad": "Barcelona", "país": "España", "teléfono": "+34 684 99 56 70", "email": "cristibea_martos@gmail.com", "tecnologias": ["REACT", "HTML&CSS"], "estado": "Contratado"
+      "id": 4, "nombre": "Cristina Bea Martos", "ubicación": "Málaga, España",  "teléfono": "+34 684 99 56 70", "email": "cristibea_martos@gmail.com", "tecnologías": ["REACT", "HTML&CSS"], "estado": "Contratado"
     },
     {
-      "id": 5, "nombre": "Jordi Rubio Roses", "ciudad": "Barcelona", "país": "España", "teléfono": "+34 600 57 32 11", "email": "rosesrubio@gmail.com", "tecnologias": ["C#", "JAVA"], "estado": "Contratado"
+      "id": 5, "nombre": "Jordi Rubio Roses", "ubicación": "Frankfurt, Alemania",  "teléfono": "+34 600 57 32 11", "email": "rosesrubio@gmail.com", "tecnologías": ["C#", "JAVA"], "estado": "Contratado"
     },
     {
-      "id": 6, "nombre": "Markus Estein Vomel", "ciudad": "Berlín", "país": "Alemania", "teléfono": "+34 604 90 50 00", "email": "markstein@gmail.com", "tecnologias": ["C#", "JAVA", "REACT", "HTML&CSS"], "estado": "Contratado"
+      "id": 6, "nombre": "Markus Estein Vomel", "ubicación": "Berlín, Alemania", "teléfono": "+34 604 90 50 00", "email": "markstein@gmail.com", "tecnologías": ["C#", "JAVA", "REACT", "HTML&CSS"], "estado": "Contratado"
     },
     {
-      "id": 7, "nombre": "Shein McCain Black", "ciudad": "Londres", "país": "UK", "teléfono": "+34 611 92 11 60", "email": "shein_mckein@gmail.com", "tecnologias": ["HTML&CSS", "PHP"], "estado": "PDTE. Ofertas"
+      "id": 7, "nombre": "Shein McCain Black", "ubicación": "Londres, UK",  "teléfono": "+34 611 92 11 60", "email": "shein_mckein@gmail.com", "tecnologías": ["HTML&CSS", "PHP"], "estado": "PDTE. Ofertas"
     },
     {
-      "id": 8, "nombre": "Kate Lovely Ress", "ciudad": "Manchester", "país": "UK", "teléfono": "+34 684 22 56 30", "email": "resslovely@gmail.com", "tecnologias": ["HTML&CSS", "REACT"], "estado": "Preseleccionado"
+      "id": 8, "nombre": "Kate Lovely Ress", "ubicación": "Manchester, UK",  "teléfono": "+34 684 22 56 30", "email": "resslovely@gmail.com", "tecnologías": ["HTML&CSS", "REACT"], "estado": "Preseleccionado"
     },
     {
-      "id": 9, "nombre": "Enrique Sánchez Rius", "ciudad": "Málaga", "país": "España", "teléfono": "+34 611 39 33 71", "email": "esanchezrius@gmail.com", "tecnologias": ["HTML&CSS", "ANGULAR"], "estado": "PDTE. Ofertas"
+      "id": 9, "nombre": "Enrique Sánchez Rius", "ubicación": "Málaga, España",  "teléfono": "+34 611 39 33 71", "email": "esanchezrius@gmail.com", "tecnologías": ["HTML&CSS", "ANGULAR"], "estado": "PDTE. Ofertas"
     },
     {
-      "id": 10, "nombre": "Marcos Ruiz Rius", "ciudad": "Las Palmas", "país": "España", "teléfono": "+34 689 65 06 0d0", "email": "mruiz_90@gmail.com", "tecnologias": ["HTML&CSS", "SYPHONY "], "estado": "Preseleccionado"
+      "id": 10, "nombre": "Marcos Ruiz Rius", "ubicación": "Las Palmas, España",  "teléfono": "+34 689 65 06 0d0", "email": "mruiz_90@gmail.com", "tecnologías": ["HTML&CSS", "SYPHONY "], "estado": "Preseleccionado"
     }
   ]

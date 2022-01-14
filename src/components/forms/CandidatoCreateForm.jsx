@@ -30,8 +30,8 @@ const CandidatoCreateForm = () => {
           </div>
           <div className="col-6">
             <label htmlFor="pais" className="form-label">País</label>
-            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg pais" name="pais">
-              <option selected>Elige un país</option>
+            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg pais" name="pais" value="none">
+              <option value="none">Elige un país</option>
               <option value="0">España</option>
               <option value="1">Argentina</option>
               <option value="2">Francia</option>
@@ -40,8 +40,8 @@ const CandidatoCreateForm = () => {
           </div>
           <div className="col-6">
             <label htmlFor="ciudad" className="form-label">Ciudad</label>
-            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg ciudad" name="ciudad">
-              <option selected>Elige una ciudad</option>
+            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg ciudad" name="ciudad" value="none">
+              <option value="none">Elige una ciudad</option>
               <option value="0">Barcelona</option>
               <option value="1">Madrid</option>
               <option value="2">Bilbao</option>
@@ -58,15 +58,15 @@ const CandidatoCreateForm = () => {
           </div>
           <div className="col-6">
             <label htmlFor="presencialidad" className="form-label">Presencialidad</label>
-            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg presencialidad" name="presencialidad">
-              <option selected value={0}>En remoto</option>
+            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg presencialidad" name="presencialidad" value={0}>
+              <option value={0}>En remoto</option>
               <option value={1}>Presencial</option>
             </select>
           </div>
           <div className="col-6">
             <label htmlFor="traslado" className="form-label">Traslado</label>
-            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg traslado" name="traslado">
-              <option selected value="0">No</option>
+            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg traslado" name="traslado" value={0}>
+              <option value="0">No</option>
               <option value="1">Si</option>
             </select>
           </div>

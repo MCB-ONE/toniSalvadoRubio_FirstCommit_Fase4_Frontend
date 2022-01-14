@@ -45,7 +45,9 @@
             "depth": 3
           }],
           "jsx-a11y/anchor-is-valid": 1,
-          "no-console": "off"
+          "no-console": "off",
+          "no-param-reassign": 0,
+          "react/forbid-prop-types": 0
         /*
         "no-alert": 0,
         "import/no-extraneous-dependencies": 0,

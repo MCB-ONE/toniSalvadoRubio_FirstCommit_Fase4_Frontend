@@ -1,32 +1,32 @@
 [
     {
-      "id": 1, "nombre": "Álvaro Sánchez Monteagudo", "ciudad": "Valencia", "país": "España", "teléfono": "+34 657 85 25 46", "email": "smonteagudo@gmail.com", "tecnologias": ["HTML&CSS", "ANGULAR", "JAVA", "PHP"], "estado": "Contratado"
+      "id": 1, "empresa": "Deloite", "ubicación": "Valencia, España", "país": "España", "teléfono": "+34 657 85 25 46", "email": "smonteagudo@gmail.com", "tecnologias": ["HTML&CSS", "ANGULAR", "JAVA", "PHP"], "estado": "Contratado"
     },
     {
-      "id": 2, "nombre": "Amparo Herrera Climent", "ciudad": "Sevilla", "país": "España", "teléfono": "+34 654 55 98 56", "email": "aherreracliment@gmail.com", "tecnologias": ["HTML&CSS", "REACT", "JAVA", "PHP"], "estado": "PDTE. Ofertas"
+      "id": 2, "empresa": "Goole", "ubicación": "Sevilla, España", "teléfono": "+34 654 55 98 56", "email": "aherreracliment@gmail.com", "tecnologias": ["HTML&CSS", "REACT", "JAVA", "PHP"], "estado": "PDTE. Ofertas"
     },
     {
-      "id": 3, "nombre": "Manuel Jimenéz Santos", "ciudad": "Berlín", "país": "Alemania", "teléfono": "+34 634 45 22 56", "email": "manujimenez@gmail.com", "tecnologias": ["JAVA", "PHP"], "estado": "Preseleccionado"
+      "id": 3, "empresa": "Everis", "ubicación": "Berlín, Alemania", "teléfono": "+34 634 45 22 56", "email": "manujimenez@gmail.com", "tecnologias": ["JAVA", "PHP"], "estado": "Preseleccionado"
     },
     {
-      "id": 4, "nombre": "Cristina Bea Martos", "ciudad": "Barcelona", "país": "España", "teléfono": "+34 684 99 56 70", "email": "cristibea_martos@gmail.com", "tecnologias": ["REACT", "HTML&CSS"], "estado": "Contratado"
+      "id": 4, "empresa": "Apple", "ubicación": "Jaén, España", "teléfono": "+34 684 99 56 70", "email": "cristibea_martos@gmail.com", "tecnologias": ["REACT", "HTML&CSS"], "estado": "Contratado"
     },
     {
-      "id": 5, "nombre": "Jordi Rubio Roses", "ciudad": "Barcelona", "país": "España", "teléfono": "+34 600 57 32 11", "email": "rosesrubio@gmail.com", "tecnologias": ["C#", "JAVA"], "estado": "Contratado"
+      "id": 5, "empresa": "Xaomi", "ubicación": "Cádiz, España", "teléfono": "+34 600 57 32 11", "email": "rosesrubio@gmail.com", "tecnologias": ["C#", "JAVA"], "estado": "Contratado"
     },
     {
-      "id": 6, "nombre": "Markus Estein Vomel", "ciudad": "Berlín", "país": "Alemania", "teléfono": "+34 604 90 50 00", "email": "markstein@gmail.com", "tecnologias": ["C#", "JAVA", "REACT", "HTML&CSS"], "estado": "Contratado"
+      "id": 6, "empresa": "Samsung", "ubicación": "Las Palmas, España", "teléfono": "+34 604 90 50 00", "email": "markstein@gmail.com", "tecnologias": ["C#", "JAVA", "REACT", "HTML&CSS"], "estado": "Contratado"
     },
     {
-      "id": 7, "nombre": "Shein McCain Black", "ciudad": "Londres", "país": "UK", "teléfono": "+34 611 92 11 60", "email": "shein_mckein@gmail.com", "tecnologias": ["HTML&CSS", "PHP"], "estado": "PDTE. Ofertas"
+      "id": 7, "empresa": "Pc Componentes", "ubicación": "Londres, UK", "país": "UK", "teléfono": "+34 611 92 11 60", "email": "shein_mckein@gmail.com", "tecnologias": ["HTML&CSS", "PHP"], "estado": "PDTE. Ofertas"
     },
     {
-      "id": 8, "nombre": "Kate Lovely Ress", "ciudad": "Manchester", "país": "UK", "teléfono": "+34 684 22 56 30", "email": "resslovely@gmail.com", "tecnologias": ["HTML&CSS", "REACT"], "estado": "Preseleccionado"
+      "id": 8, "empresa": "Consultoria Internacional", "ubicación": "Londres, UK", "teléfono": "+34 684 22 56 30", "email": "resslovely@gmail.com", "tecnologias": ["HTML&CSS", "REACT"], "estado": "Preseleccionado"
     },
     {
-      "id": 9, "nombre": "Enrique Sánchez Rius", "ciudad": "Málaga", "país": "España", "teléfono": "+34 611 39 33 71", "email": "esanchezrius@gmail.com", "tecnologias": ["HTML&CSS", "ANGULAR"], "estado": "PDTE. Ofertas"
+      "id": 9, "empresa": "Net Dot Workers", "ubicación": "Londres, UK", "teléfono": "+34 611 39 33 71", "email": "esanchezrius@gmail.com", "tecnologias": ["HTML&CSS", "ANGULAR"], "estado": "PDTE. Ofertas"
     },
     {
-      "id": 10, "nombre": "Marcos Ruiz Rius", "ciudad": "Las Palmas", "país": "España", "teléfono": "+34 689 65 06 0d0", "email": "mruiz_90@gmail.com", "tecnologias": ["HTML&CSS", "SYPHONY "], "estado": "Preseleccionado"
+      "id": 10, "empresa": "Working Consulting", "ubicación": "Málaga, España", "teléfono": "+34 689 65 06 0d0", "email": "mruiz_90@gmail.com", "tecnologias": ["HTML&CSS", "SYPHONY "], "estado": "Preseleccionado"
     }
   ]
